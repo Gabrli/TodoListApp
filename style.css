@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(32, 43, 75, 0.833);
+    font-family: 'Open Sans', sans-serif;
+
+}
+.test{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+}
+
+
+.form-input{
+    width: 350px;
+    height:40px;
+    border: 0;
+    color: white;
+    border-radius: 7px;
+    background: rgba(26, 37, 72, 0.833);
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 'bold';
+   
+    font-size: 15px;
+    position: fixed;
+    top: 550px;
+    left: 56px;
+    
+    
+}
+.form-input:hover{
+    background: rgba(15, 21, 39, 0.833);
+    transition: .2s ease-in-out;
+
+}
+.add-item{
+   
+    width: 35px;
+    background: royalblue;
+    border: 0;
+    border-radius: 12px;
+    transition: .2s ease-in-out;
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;;
+    height: 35px;
+    position: fixed;
+    top: 550px;
+    left: 10px
+    
+}
+.add-item:hover{
+    background: rgb(28, 50, 119);
+    transition: .2s ease-in-out;
+}
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 3px solid royalblue;
+    position: fixed;
+    top: 0;
+    left: 95px;
+
+}
+ul li{
+    width: 290px;
+    height: 35px;
+    background-color: blueviolet;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+    list-style-type: none;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    padding-top: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 7px;
+    position: relative;
+    top: 80px;
+    left: 30px;
+}
+ul li:hover{
+    background-color: rgb(84, 26, 138);
+    transition: .2s ease-in-out;
+
+}
+.newBtn{
+ 
+   width: 30px;
+   height: 30px;
+   border: 0;
+   border-radius: 12px;
+   background-color: royalblue;
+   transition: .2s ease-in-out;
+   position: relative;
+   top: 48px;
+   right: 10px;
+   color: white;
+   
+
+}
+.newBtn:hover{
+    transition: .2s ease-in-out;
+    background-color: rgb(33, 57, 129);
+
+}
